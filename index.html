@@ -6,27 +6,21 @@
     <title>۴۸ دلیل برای تو ❤️</title>
     <style>
         body { font-family: 'Tahoma', sans-serif; background-color: #fdf2f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
-        .card-container { width: 90%; max-width: 500px; background: white; padding: 40px; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; min-height: 350px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
-        
-        /* استایل عناوین و متن‌ها */
-        #title { color: #db2777; font-size: 50px; margin: 0 0 10px 0; }
-        #subtitle { color: #666; font-size: 16px; margin: 0 0 20px 0; }
-        #content { color: #444; font-size: 18px; line-height: 1.8; margin-bottom: 30px; }
-        
-        .nav-buttons { margin-top: auto; display: flex; gap: 20px; padding-top: 20px; }
-        button { background: #db2777; color: white; border: none; padding: 10px 25px; border-radius: 10px; cursor: pointer; font-size: 16px; transition: background 0.3s; }
+        .card-container { width: 90%; max-width: 500px; background: white; padding: 40px; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; min-height: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        h1 { color: #db2777; font-size: 24px; margin-bottom: 20px; }
+        p { color: #444; font-size: 18px; line-height: 1.6; }
+        .nav-buttons { margin-top: 30px; display: flex; gap: 20px; }
+        button { background: #db2777; color: white; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; font-size: 16px; transition: background 0.3s; }
         button:hover { background: #be185d; }
-        button:disabled { background: #ccc; cursor: not-allowed; }
     </style>
 </head>
 <body>
     <div class="card-container" id="card">
-        <h1 id="title">❤️</h1>
-        <div id="subtitle"></div>
-        <p id="content">تولدت مبارک عشق من</p>
+        <h1 id="title">تولدت مبارک عشق من! ❤️</h1>
+        <p id="content">۴۸ بهانه برای دوست داشتنت ❤️<br>بزن روی دکمه بعدی...</p>
         <div class="nav-buttons">
-            <button id="prevBtn" onclick="prev()">قبلی</button>
-            <button id="nextBtn" onclick="next()">بعدی</button>
+            <button onclick="prev()">قبلی</button>
+            <button onclick="next()">بعدی</button>
         </div>
     </div>
     <script>
