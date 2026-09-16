@@ -89,7 +89,11 @@
                 prevBtn.style.display = 'none';
                 nextBtn.style.display = 'inline-block';
             } else {
-                title.innerText = (index + 1);
+                if(index === reasons.length - 1) {
+                    title.innerText = "";
+                } else {
+                    title.innerText = (index + 1);
+                }
                 content.innerText = reasons[index];
                 prevBtn.style.display = 'inline-block';
                 if(index === reasons.length - 1) {
